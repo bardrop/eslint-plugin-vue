@@ -1,5 +1,11 @@
 # eslint-plugin-vue
 
+## 10.13.0
+
+### Minor Changes
+
+- Fixed [`vue/no-ref-as-operand`](https://eslint.vuejs.org/rules/no-ref-as-operand.html) false negatives for refs on the right side of a logical expression whose result is used as an operand, e.g. `if (a && ref)` ([#3148](https://github.com/vuejs/eslint-plugin-vue/pull/3148))
+
 ## 10.12.1
 
 ### Patch Changes
